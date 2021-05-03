@@ -51,7 +51,7 @@ main {
 }
 
 .indented-heading {
-  max-width: max-content;
+  max-width: fit-content;
   margin-left: -32px;
   padding: 16px 32px;
   border-bottom: 8px solid hsl(45deg, 100%, 40%); /* darker gold */
