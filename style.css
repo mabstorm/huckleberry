@@ -10,3 +10,51 @@ body {
 }
 
 /* Add styles here! */
+strong {
+  color: hsl(160deg, 100%, 30%); /* primary green */
+}
+
+header {
+  margin: 32px auto 24px auto;
+}
+
+.intro-chunk, .card {
+  padding: 8px 24px;
+}
+
+.intro-chunk {
+  min-width: min-content; /* min-content allows us to shrink for mobile */
+  max-width: 375px;
+  font-size: 1.25rem;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+main {
+  min-height: 480px;
+  border-top: 8px solid hsl(0deg, 0%, 40%); /* dark */
+  background-color: hsl(0deg, 0%, 60%); /* light */
+}
+
+.max-width-wrapper {
+  max-width: 580px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  margin-top: 48px;
+  background-color: hsl(0deg, 0%, 100%); /* white */
+  border-bottom: 8px solid hsl(0deg, 0%, 40%); /* dark */
+}
+
+.indented-heading {
+  max-width: max-content;
+  margin-left: -32px;
+  padding: 16px 32px;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%); /* darker gold */
+  font-size: 1.25rem;
+  background-color: hsl(45deg, 100%, 50%); /*lighter gold */
+}
